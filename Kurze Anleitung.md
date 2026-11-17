@@ -1,10 +1,9 @@
 # LabelLos
 
-Kleine Webanwendung (Prüfungsprojekt, Modul T4): Nutzer:innen sammeln bekannte Informationen zu
-**unverpackten Lebensmitteln** (z. B. vom Bäcker oder aus der Mensa).
+Kleine Webanwendung: Nutzersammeln bekannte Informationen zu
+unverpackten Lebensmitteln (z. B. vom Bäcker oder aus der Mensa).
 
-> **Wichtig:** LabelLos gibt **keine** Vegan- oder Allergensicherheitsgarantie. Alle Angaben stammen von
-> Nutzer:innen. Bei Allergien immer direkt beim Anbieter nachfragen.
+Die Anwendung gibt keine Vegan- oder Allergensicherheitsgarantie. Alle Angaben stammen von Nutzern.
 
 ## Funktionen
 
@@ -14,27 +13,24 @@ Kleine Webanwendung (Prüfungsprojekt, Modul T4): Nutzer:innen sammeln bekannte 
 - Das **Backend** prüft die Zutatenhinweise gegen eine kleine Liste tierischer Zutaten und zeigt mögliche
   Treffer mit Begründung. *Kein Treffer bedeutet nicht „vegan“.* Ohne verlässliche Angaben bleibt die
   Einschätzung „unbekannt“.
-- Bewusst **nicht** enthalten: Login, Kamera, KI-Erkennung, externe Produkt-API
 
 ## Architektur in einem Satz
 
 Ein Vue-Frontend spricht per HTTP/JSON mit einer eigenen REST-API (Deno + Hono), die ihre Daten in einer
-JSON-Datei speichert. Frontend und Backend sind getrennte Programme und kennen nur den „Vertrag“ dazwischen
-(die API). Details: [docs/DOKUMENTATION.md](docs/DOKUMENTATION.md) (Gesamtdokumentation für die Abgabe),
-[docs/ARCHITEKTUR.md](docs/ARCHITEKTUR.md) und [docs/API.md](docs/API.md).
-
-```
-Browser (Vue, Port 5173)  --HTTP/JSON-->  REST-API (Hono, Port 8000)  -->  Logik  -->  data/entries.json, users.json
-```
+JSON-Datei speichert. Frontend und Backend sind getrennte Programme und kennen nur die Schnittstelle dazwischen
+(die API). 
 
 ## Voraussetzungen
 
 | Werkzeug | Wofür | Prüfen mit |
-|---|---|---|
+
 | [Node.js](https://nodejs.org) 20.19+ oder 22.12+ | Frontend (Vite) | `node -v` |
+
 | [Deno](https://deno.com) 2.x | Backend | `deno --version` |
+
 | [Git](https://git-scm.com) | Versionsverwaltung | `git --version` |
-| VS Code mit Erweiterungen *Deno* und *Vue (Official)* | Editor | – |
+
+| VS Code mit Erweiterungen *Deno* und *Vue (Official)* | Editor |
 
 ## Starten (zwei Terminals)
 
@@ -95,14 +91,9 @@ labellos/
 └─ docs/                    API- und Architektur-Dokumentation
 ```
 
-## Hilfsmittel
-
-*(Bitte hier eintragen, welche Hilfsmittel – auch KI-Werkzeuge – du genutzt hast, so wie es die
-Vorgaben der Lehrveranstaltung verlangen.)*
 
 
 ## Anmeldung
 
 Beim ersten Start: **Registrieren** (Benutzername + Passwort mit mind. 8 Zeichen). Jede Person sieht nur ihre eigenen
-Einträge. Erklärung für die Prüfung: `docs/ANMELDUNG.md`. Für die Demo: zwei Konten anlegen (z. B. `anna` und `ben`)
-und zeigen, dass Ben die Einträge von Anna nicht sieht.
+Einträge. 
