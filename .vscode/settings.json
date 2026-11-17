@@ -1,0 +1,7 @@
+{
+  // Die Deno-Erweiterung soll NUR im Ordner "backend" aktiv sein.
+  // Im Ordner "frontend" ist Node/Vue zuständig (Volar-Erweiterung).
+  "deno.enablePaths": ["backend"],
+  "deno.config": "backend/deno.json",
+  "editor.formatOnSave": false
+}

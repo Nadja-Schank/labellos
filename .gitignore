@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+# Hilfsdatei, die beim Speichern kurz entsteht
+backend/data/*.tmp
+
+# Benutzerkonten (enthalten Passwort-Hashes) nicht ins Repository
+backend/data/users.json
+backend/data/*.tmp
