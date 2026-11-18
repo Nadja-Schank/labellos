@@ -6,8 +6,8 @@
   --ink: #17252a;
   --ink-soft: #3d4f55;
   --line: #c3cfca;
-  --green: #1d5c47;
-  --green-dark: #144234;
+  --green: #2f7a5a;      /* Kontrast zu Weiß 5,2:1 */
+  --green-dark: #1d5c47; /* Kontrast zu Weiß 7,9:1 */
   --focus: #0b57d0;
   --danger: #9b2318;
   --danger-bg: #fdecea;
