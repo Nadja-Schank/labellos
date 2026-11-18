@@ -18,7 +18,7 @@ import { validateCredentials, validateEntryInput } from "./validation.ts";
 const SESSION_COOKIE = "labellos_session";
 
 // Die Analyse wird bei jeder Antwort frisch berechnet und NICHT gespeichert.
-// So bleibt sie aktuell, wenn wir die Liste tierischer Zutaten verbessern.
+// So bleibt sie aktuell, wenn ich die Liste tierischer Zutaten verbessere.
 function toResponse(entry: Entry): EntryResponse {
   return { ...entry, analysis: analyzeEntry(entry) };
 }

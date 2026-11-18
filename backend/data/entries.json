@@ -26,5 +26,59 @@
     "ownerId": "0f3e3fdd-88bf-4741-86c4-786e273effba",
     "createdAt": "2026-11-18T09:09:23.485Z",
     "updatedAt": "2026-11-18T09:09:23.485Z"
+  },
+  {
+    "name": "Fruchsaft",
+    "category": "Getränk",
+    "ingredientNotes": "e120\nobst\nwasser",
+    "allergens": [],
+    "diet": "UNKNOWN",
+    "source": "Restaurant x",
+    "checkedAt": "2026-11-18",
+    "id": "5376ead9-8516-4a9f-9d4d-99abc867796c",
+    "ownerId": "0f3e3fdd-88bf-4741-86c4-786e273effba",
+    "createdAt": "2026-11-18T14:06:56.965Z",
+    "updatedAt": "2026-11-18T14:06:56.965Z"
+  },
+  {
+    "name": "Donut",
+    "category": "Backware",
+    "ingredientNotes": "",
+    "allergens": [],
+    "diet": "UNKNOWN",
+    "source": "Bäcker",
+    "checkedAt": "2026-11-18",
+    "id": "53d250e0-821f-4998-82c7-690ca0b81937",
+    "ownerId": "0f3e3fdd-88bf-4741-86c4-786e273effba",
+    "createdAt": "2026-11-18T14:12:07.573Z",
+    "updatedAt": "2026-11-18T14:12:07.573Z"
+  },
+  {
+    "name": "Donut",
+    "category": "Backware",
+    "ingredientNotes": "",
+    "allergens": [],
+    "diet": "UNKNOWN",
+    "source": "bäcker",
+    "checkedAt": "2026-11-18",
+    "id": "d721282a-1aab-49bb-9516-75abc135f11e",
+    "ownerId": "0f3e3fdd-88bf-4741-86c4-786e273effba",
+    "createdAt": "2026-11-18T14:12:38.410Z",
+    "updatedAt": "2026-11-18T14:12:38.410Z"
+  },
+  {
+    "name": "Butterkeks",
+    "category": "Snack",
+    "ingredientNotes": "Mehl\nButter\nEier\nZucker",
+    "allergens": [
+      "Glutenhaltiges Getreide"
+    ],
+    "diet": "UNKNOWN",
+    "source": "Bäcker",
+    "checkedAt": "2026-11-18",
+    "id": "fbbd026e-0952-4b95-874a-3a18cc134456",
+    "ownerId": "0f3e3fdd-88bf-4741-86c4-786e273effba",
+    "createdAt": "2026-11-18T15:54:55.465Z",
+    "updatedAt": "2026-11-18T15:54:55.465Z"
   }
 ]
