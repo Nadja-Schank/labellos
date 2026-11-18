@@ -27,7 +27,7 @@ const { user, checking, busy, error, fieldErrors, submit, signOut } = useAuth();
     <aside class="notice" aria-labelledby="notice-title">
       <h2 id="notice-title" class="notice__title">Wichtiger Hinweis</h2>
       <p>
-        LabelLos sammelt Angaben, die Nutzer:innen eingetragen haben. Die App gibt <strong>keine Garantie</strong>
+        LabelLos sammelt Angaben, die Nutzer eingetragen haben. Die App gibt <strong>keine Garantie</strong>
         dafür, dass ein Lebensmittel vegan oder frei von Allergenen ist. Bei Allergien oder Unverträglichkeiten
         bitte immer direkt beim Anbieter nachfragen.
       </p>

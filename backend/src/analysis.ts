@@ -87,8 +87,7 @@ export const GROUPS: Group[] = [
     id: "egg",
     label: "Ei und Eiprodukte",
     level: "NOT_VEGAN",
-    reason:
-      "Das Wort deutet auf Ei hin. „Eiweiß“ kann Hühnereiweiß sein – bitte prüfen. Mayonnaise enthält meist Ei.",
+    reason: "Das Wort deutet auf Ei hin.",
     rules: [
       w("ei"), s("eier"), p("eigelb"), w("eiweiß"), w("eiweiss"), p("eiklar"),
       p("eipulver"), p("vollei"), p("hühnerei"), p("eischnee"), p("rührei"),

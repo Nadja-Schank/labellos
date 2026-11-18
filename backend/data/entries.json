@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "name": "Keks",
+    "category": "Snack",
+    "ingredientNotes": "Butter\nMehl\nEi\nZucker\nKakao",
+    "allergens": [],
+    "diet": "UNKNOWN",
+    "source": "Bäcker",
+    "checkedAt": "2026-11-18",
+    "id": "55a6626d-4402-4888-95d9-1c5b36fdc84a",
+    "ownerId": "0f3e3fdd-88bf-4741-86c4-786e273effba",
+    "createdAt": "2026-11-18T08:55:40.819Z",
+    "updatedAt": "2026-11-18T08:55:40.819Z"
+  }
+]
