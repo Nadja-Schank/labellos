@@ -92,7 +92,7 @@ main { padding-top: 1.25rem; }
 /* Formularfelder */
 .field { display: flex; flex-direction: column; gap: 0.3rem; margin-bottom: 1rem; }
 label, legend { font-weight: 600; }
-input[type="text"], input[type="search"], input[type="date"], select, textarea {
+input[type="text"], input[type="search"], input[type="date"], input[type="password"], select, textarea {
   font: inherit; color: inherit;
   min-height: 2.75rem; padding: 0.45rem 0.65rem;
   border: 2px solid #7b8d88; border-radius: 0.35rem; background: #fff;
